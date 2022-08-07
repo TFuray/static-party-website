@@ -120,6 +120,7 @@ input, select, textarea {
 		color: #888;
 		-webkit-text-stroke: 0.1px;
 	}
+	
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #666;
@@ -242,12 +243,15 @@ input, select, textarea {
 
 	.icon-container {
 		padding: 3%;
-		border: 3px solid rgba(255, 255, 255, 0.397);
+		border: 3px solid rgba(94, 91, 91, 0.397);
 		border-radius: 12px;
 	}
 
 	.heading {
-		font-size: 2em;
+		font-weight: 800;
+		color: RGB(238,112,153) !important;
+		font-size: 4em;
+		font-family: 'Dancing Script', cursive;
 	}
 
 	.custom-icon {
@@ -261,6 +265,14 @@ input, select, textarea {
 
 		.featured p {
 			text-align: center;
+			color: rgba(44, 44, 44, 0.603)
+		}
+		
+		.featured h3{
+			font-size: 1.5em !important;
+			color: RGB(1,174,194);
+			font-weight: 200;
+			font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 		}
 
 /* Container */
@@ -2074,7 +2086,7 @@ input, select, textarea {
 	.dark input[type="reset"],
 	.dark button,
 	.dark .button {
-		background: rgba(255, 255, 255, 0.15);
+		background: RGB(238,112,153);
 		box-shadow: inset 0 0 0 1px #fff;
 		color: #fff;
 	}
@@ -2214,13 +2226,15 @@ input, select, textarea {
 			font-size: 4em;
 			line-height: 1.25em;
 			margin-bottom: 0;
-			font-weight: 300;
+			font-weight: 800;
 			text-shadow: rgba(0, 0, 0, 0.26) 2px 2px;
+			font-family: 'Dancing Script', cursive;
 		}
 
 		#header header p {
 			margin-top: 1.25em;
 			font-weight: 300;
+			font-family: 'Arial Narrow Bold', sans-serif;
 			padding: 0;
 			font-size: 1.6em;
 			line-height: 1.5em;
@@ -2266,13 +2280,13 @@ input, select, textarea {
 				font-size: 1.5em;
 			}
 
-			.main > .content.dark {
+			/* .main > .content.dark {
 				background: #433;
-			}
+			} */
 
-			.main > .content.style1 {
+			/* .main > .content.style1 {
 				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #b39c68, #a56365, #412e4c);
-			}
+			} */
 
 			.main > .content.style2 {
 				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #384955, #655361, #85505f);
