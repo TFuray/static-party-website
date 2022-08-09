@@ -16,7 +16,7 @@
 	.carousel>h2{
 		text-align: center;
 		color: white;
-		font-family: 'Dancing Script', cursive;
+		font-family: 'Oleo Script Swash Caps', cursive;;
 		font-size: 3em;
 
 	}
@@ -382,7 +382,7 @@ input, select, textarea {
 		font-weight: 800;
 		color: RGB(238,112,153) !important;
 		font-size: 4em;
-		font-family: 'Dancing Script', cursive;
+		font-family: 'Oleo Script Swash Caps', cursive;;
 	}
 
 	.custom-icon {
@@ -414,7 +414,6 @@ section.main>header {
 
 
 div.flex-container {
-	height: 50vh;
 	display: flex;
 	gap: 5%;
 }
@@ -440,11 +439,65 @@ h3.flex{
 	font-size: .9em;
 	font-weight: 600;
 	color: RGB(37,162,195);
+	
 }
 
 p.flex {
 	font-size: .7em;
+	margin: 0 !important;
 }
+
+/* p.flex.right, h3.flex.right {
+	text-align: left;
+}
+
+p.flex.left, h3.flex.left {
+	text-align: right;
+} */
+
+/* section four */
+
+	section#fourth>header{
+		background:RGB(238,112,153) ;
+		color: white;
+	}
+	section#fourth header h2{
+		color: white;
+		font-family: 'Oleo Script Swash Caps', cursive;;
+		font-weight: 800;
+	}
+
+	section#fourth header h4 {
+		color: white;
+		font-weight: 600;
+		margin-top: 3%;
+		font-size: .9em;
+	}
+
+	section#fourth header p {
+		font-style: italic;
+		font-size: .8em;
+	}
+
+	section#fourth div.flex-box {
+		width: 25%;
+	}
+
+	section#fourth div.flex-container {
+		display: flex;
+		justify-content: space-around;
+	}
+
+
+/* form */
+
+	#section-5-title {
+		font-size: 3em;
+		color: RGB(37,162,195);
+		font-family: 'Oleo Script Swash Caps', cursive;;
+		font-weight: 800;
+		margin: 2% 0 1% 0 !important;	
+	}
 
 /* Container */
 
@@ -2219,7 +2272,7 @@ p.flex {
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		background: #3d3d3d;
+		background: #3d3d3d31;
 		padding: 0.85em 3em 0.85em 3em;
 		border-radius: 0.25em;
 		cursor: pointer;
@@ -2402,7 +2455,7 @@ p.flex {
 			margin-bottom: 0;
 			font-weight: 800;
 			text-shadow: rgba(0, 0, 0, 0.26) 2px 2px;
-			font-family: 'Dancing Script', cursive;
+			font-family: 'Oleo Script Swash Caps', cursive;;
 		}
 
 		#header header p {
