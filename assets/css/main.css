@@ -10,6 +10,15 @@
 
 	.carousel {
 		overflow-x: auto;
+		height: auto;
+	}
+
+	.carousel>h2{
+		text-align: center;
+		color: white;
+		font-family: 'Dancing Script', cursive;
+		font-size: 3em;
+
 	}
 
 	.carousel {
@@ -96,9 +105,10 @@
 		}
 
 		.carousel article {
+			min-height: auto;
 			display: inline-block;
 			width: 18em;
-			background: #fff;
+			background: RGB(238,112,153);
 			text-align: center;
 			padding: 0 1em 3em 1em;
 			margin: 0 2em 0 0;
@@ -395,6 +405,46 @@ input, select, textarea {
 			font-weight: 200;
 			font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 		}
+
+/* flex container */
+
+section.main>header {
+	padding: 5% 0;
+}
+
+
+div.flex-container {
+	height: 50vh;
+	display: flex;
+	gap: 5%;
+}
+
+div.box-2,
+div.box-1,
+div.box-3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+div.box-2 img {
+	border-radius: 50%;
+}
+
+p.flex, h3.flex{
+	display: flex;	
+	align-content: space-around;
+}
+
+h3.flex{
+	font-size: .9em;
+	font-weight: 600;
+	color: RGB(37,162,195);
+}
+
+p.flex {
+	font-size: .7em;
+}
 
 /* Container */
 
@@ -1711,6 +1761,7 @@ input, select, textarea {
 		.image.featured {
 			display: block;
 			width: 100%;
+			height: 50%;
 			margin: 0 0 2em 0;
 		}
 
@@ -2370,7 +2421,9 @@ input, select, textarea {
 		}
 
 /* Main Sections */
-
+	.carousel{
+		background-color: RGB(238,112,153) !important;
+	}
 	.main {
 		position: relative;
 		margin: 0;
