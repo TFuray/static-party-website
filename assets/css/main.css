@@ -458,7 +458,7 @@ p.flex.left, h3.flex.left {
 /* section four */
 
 	section#fourth>header{
-		background:RGB(238,112,153) ;
+		background:RGB(238,112,153, 0) ;
 		color: white;
 	}
 	section#fourth header h2{
